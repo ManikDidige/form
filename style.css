@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    outline:none;
+}
+body{
+    display:flex;
+    justify-content:center;
+
+}
+container{
+    background-color: white;
+    border-radius: 5px;
+    width:400px;
+    max-width:100%;
+    overflow:hidden;
+}
+.header{
+    background-color: #f7f7f7;
+    padding:20px 40px
+}
+.header h2{
+    margin:0;
+}
+.form{
+    padding: 30px 40px;
+}
+.fild{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.field label1{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.field input:not(.terms){
+    display: block;
+}
